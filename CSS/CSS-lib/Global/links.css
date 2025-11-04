@@ -1,0 +1,29 @@
+/* ===== Base Link Styles ===== */
+a {
+    color: #007BFF;         /* Link color */
+    text-decoration: none;  /* Remove underline */
+    font-weight: 500;       /* Slight emphasis */
+    transition: 0.3s ease;  /* Smooth hover effect */
+}
+
+/* Hover state */
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;         /* Slightly darker on hover */
+}
+
+/* Active/Pressed */
+a:active {
+    color: #003f7f;
+}
+
+/* Visited links */
+a:visited {
+    color: #5a35a0;
+}
+
+/* Remove link styling for navigation or buttons if needed */
+.link-clean {
+    color: inherit;
+    text-decoration: none;
+}
