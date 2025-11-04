@@ -1,6 +1,6 @@
 /* ===== Base Link Styles ===== */
 a {
-    color: #007BFF;         /* Link color */
+    color: var(--link-color);         /* Link color */
     text-decoration: none;  /* Remove underline */
     font-weight: 500;       /* Slight emphasis */
     transition: 0.3s ease;  /* Smooth hover effect */
@@ -9,17 +9,17 @@ a {
 /* Hover state */
 a:hover {
     text-decoration: underline;
-    color: #0056b3;         /* Slightly darker on hover */
+    color:var(--link-hover);         /* Slightly darker on hover */
 }
 
 /* Active/Pressed */
 a:active {
-    color: #003f7f;
+    color: var(--text-active);
 }
 
 /* Visited links */
 a:visited {
-    color: #5a35a0;
+    color: var(--text-visited);
 }
 
 /* Remove link styling for navigation or buttons if needed */
