@@ -22,6 +22,16 @@
     --font-color-base: #1c1c1c;    /* main text color */
     --font-color-muted: #555555;   /* secondary / muted text */
     --font-color-heading: #222222; /* headings */
+    --color-primary: #1a73e8;   /* Main brand / action blue */
+    --color-accent: #ffb300;    /* Accent / highlight (amber) */
+    --color-error: #e53935;     /* Error / danger */
+    --color-success: #43a047;   /* Success / confirmation */
+    --border-color-default: #dddddd;
+    --border-color-muted: #cccccc;
+    --border-color-accent: var(--color-accent);
+    --border-color-primary: var(--color-primary);
+    --border-color-error: var(--color-error);
+    --border-color-success: var(--color-success);
 }
 
 /* ===== Dark Mode Variables ===== */
@@ -47,4 +57,14 @@
     --font-color-base: #e6e6e6;
     --font-color-muted: #bbbbbb;
     --font-color-heading: #ffffff;
+    --color-primary: #8ab4f8;   /* Lighter blue for dark UI */
+    --color-accent: #ffca55;    /* Lighter amber/yellow */
+    --color-error: #ef5350;     /* Lighter red */
+    --color-success: #66bb6a;   /* Lighter green */
+    --border-color-default: #444444;
+    --border-color-muted: #555555;
+    --border-color-accent: var(--color-accent);
+    --border-color-primary: var(--color-primary);
+    --border-color-error: var(--color-error);
+    --border-color-success: var(--color-success);
 }
