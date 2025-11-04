@@ -65,4 +65,12 @@
   --heading-h4-line-height: var(--line-height-md);
   --heading-h5-line-height: var(--line-height-md);
   --heading-h6-line-height: var(--line-height-md);
+
+  /* -------------------------
+     Paragraph Typography
+  ------------------------- */
+  --p-font-size: var(--font-size-md);          /* 16px */
+  --p-line-height: var(--line-height-md);      /* 1.5 */
+  --p-font-weight: var(--font-weight-regular);
+  --p-letter-spacing: var(--letter-spacing-normal);
 }
