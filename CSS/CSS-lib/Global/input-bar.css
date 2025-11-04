@@ -1,0 +1,29 @@
+/* ===== Base Input Style ===== */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+textarea {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 1rem;
+    border-radius: 6px;
+
+    background-color: var(--input-bg);
+    color: var(--input-text);
+    border: 1px solid var(--input-border);
+
+    outline: none;
+    transition: border-color 0.25s ease, background-color 0.25s ease, color 0.25s ease;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--input-placeholder);
+}
+
+/* Focus State */
+input:focus,
+textarea:focus {
+    border-color: var(--input-border-focus);
+}
