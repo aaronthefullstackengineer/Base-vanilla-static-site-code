@@ -1,1 +1,7 @@
 @import url('CSS-lib/Global/reset.css');
+@import url('CSS-lib/Global/typography.css');
+@import url('CSS-lib/Global/links.css');
+@import url('CSS-lib/Global/light-dark-mode.css');
+@import url('CSS-lib/Global/input-bar.css');
+@import url('CSS-lib/Global/fonts.css');
+@import url('CSS-lib/Global/card.css');
