@@ -1,0 +1,45 @@
+/* ===== Global Font Styles ===== */
+body {
+    font-family: var(--font-family-base);
+    font-size: 16px;          /* base font size */
+    line-height: 1.6;         /* line spacing for readability */
+    color: var(--font-color-base);
+    background-color: var(--bg-color); /* background can be controlled by theme */
+}
+
+/* ===== Headings ===== */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--font-color-heading);
+    font-weight: 500;         /* moderate emphasis */
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.875rem; }
+
+/* ===== Paragraphs & Text ===== */
+p {
+    font-size: 1rem;
+    margin-bottom: 1em;
+    color: var(--font-color-base);
+}
+
+small,
+.muted {
+    color: var(--font-color-muted);
+}
+
+/* ===== Links ===== */
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: var(--link-hover-color);
+}
