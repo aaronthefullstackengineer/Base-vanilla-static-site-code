@@ -1,0 +1,68 @@
+:root {
+  /* -------------------------
+     Font Families
+  ------------------------- */
+  --font-sans: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'Merriweather', Georgia, serif;
+  --font-mono: 'Fira Code', 'Courier New', monospace;
+
+  /* -------------------------
+     Font Weights
+  ------------------------- */
+  --font-weight-thin: 100;
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-black: 900;
+
+  /* -------------------------
+     Font Sizes (Mobile First)
+  ------------------------- */
+  --font-size-xs: 0.75rem;   /* 12px */
+  --font-size-sm: 0.875rem;  /* 14px */
+  --font-size-md: 1rem;      /* 16px */
+  --font-size-lg: 1.125rem;  /* 18px */
+  --font-size-xl: 1.25rem;   /* 20px */
+  --font-size-2xl: 1.5rem;   /* 24px */
+  --font-size-3xl: 1.875rem; /* 30px */
+  --font-size-4xl: 2.25rem;  /* 36px */
+  --font-size-5xl: 3rem;     /* 48px */
+
+  /* -------------------------
+     Line Heights
+  ------------------------- */
+  --line-height-xs: 1;
+  --line-height-sm: 1.25;
+  --line-height-md: 1.5;
+  --line-height-lg: 1.75;
+  --line-height-xl: 2;
+
+  /* -------------------------
+     Letter Spacing
+  ------------------------- */
+  --letter-spacing-tight: -0.05em;
+  --letter-spacing-normal: 0em;
+  --letter-spacing-wide: 0.05em;
+  --letter-spacing-wider: 0.1em;
+
+  /* -------------------------
+     Headings (Optional Semantic Scale)
+  ------------------------- */
+  --heading-h1-size: var(--font-size-5xl);
+  --heading-h2-size: var(--font-size-4xl);
+  --heading-h3-size: var(--font-size-3xl);
+  --heading-h4-size: var(--font-size-2xl);
+  --heading-h5-size: var(--font-size-xl);
+  --heading-h6-size: var(--font-size-lg);
+
+  --heading-h1-line-height: var(--line-height-lg);
+  --heading-h2-line-height: var(--line-height-lg);
+  --heading-h3-line-height: var(--line-height-md);
+  --heading-h4-line-height: var(--line-height-md);
+  --heading-h5-line-height: var(--line-height-md);
+  --heading-h6-line-height: var(--line-height-md);
+}

@@ -1,0 +1,58 @@
+:root {
+  /* -------------------------
+     Spacing Scale
+     Use multiples for consistency (base = 8px)
+  ------------------------- */
+  --spacing-xxs: 4px;    /* 0.5x */
+  --spacing-xs: 8px;     /* 1x */
+  --spacing-sm: 12px;    /* 1.5x */
+  --spacing-md: 16px;    /* 2x */
+  --spacing-lg: 24px;    /* 3x */
+  --spacing-xl: 32px;    /* 4x */
+  --spacing-2xl: 48px;   /* 6x */
+  --spacing-3xl: 64px;   /* 8x */
+  --spacing-4xl: 96px;   /* 12x */
+
+  /* -------------------------
+     Grid / Gap Sizes
+  ------------------------- */
+  --gap-xs: var(--spacing-xs);
+  --gap-sm: var(--spacing-sm);
+  --gap-md: var(--spacing-md);
+  --gap-lg: var(--spacing-lg);
+  --gap-xl: var(--spacing-xl);
+
+  /* -------------------------
+     Container / Layout Widths
+  ------------------------- */
+  --container-width-xs: 360px;
+  --container-width-sm: 540px;
+  --container-width-md: 720px;
+  --container-width-lg: 960px;
+  --container-width-xl: 1140px;
+  --container-width-xxl: 1320px;
+
+  /* -------------------------
+     Max Widths
+  ------------------------- */
+  --max-width-content: 1140px;
+  --max-width-text: 720px;
+  --max-width-sidebar: 360px;
+
+  /* -------------------------
+     Edge Padding / Layout Spacing
+  ------------------------- */
+  --layout-padding-sm: var(--spacing-md);
+  --layout-padding-md: var(--spacing-lg);
+  --layout-padding-lg: var(--spacing-xl);
+
+  /* -------------------------
+     Breakpoints (optional, layout-specific)
+  ------------------------- */
+  --breakpoint-xs: 320px;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1440px;
+}
