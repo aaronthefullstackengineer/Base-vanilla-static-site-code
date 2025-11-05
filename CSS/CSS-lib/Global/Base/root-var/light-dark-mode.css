@@ -32,6 +32,14 @@
     --border-color-primary: var(--color-primary);
     --border-color-error: var(--color-error);
     --border-color-success: var(--color-success);
+    --footer-bg: #f7f8fa;
+    --footer-text: #2a2a2a;
+    --footer-muted-text: #6b6b6b;
+    --footer-link: #1a73e8;
+    --footer-link-hover: #0c4ec3;
+    --footer-border: rgba(0, 0, 0, 0.08);
+    --footer-icon: #2a2a2a;
+    --footer-icon-hover: #0c4ec3;
 }
 
 /* ===== Dark Mode Variables ===== */
@@ -67,4 +75,12 @@
     --border-color-primary: var(--color-primary);
     --border-color-error: var(--color-error);
     --border-color-success: var(--color-success);
+    --footer-bg: #111418;
+    --footer-text: #e8e8e8;
+    --footer-muted-text: #9b9b9b;
+    --footer-link: #6aa9ff;
+    --footer-link-hover: #a6caff;
+    --footer-border: rgba(255, 255, 255, 0.12);
+    --footer-icon: #e8e8e8;
+    --footer-icon-hover: #a6caff;
 }

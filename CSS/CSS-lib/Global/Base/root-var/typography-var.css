@@ -80,4 +80,38 @@
   --p-line-height: var(--line-height-md);      /* 1.5 */
   --p-font-weight: var(--font-weight-regular);
   --p-letter-spacing: var(--letter-spacing-normal);
+
+/* ============================
+   🎨 TEXT DECORATION VARIABLES
+   ============================ */
+
+  /* Decoration Types */
+  --td-none: none;
+  --td-underline: underline;
+  --td-overline: overline;
+  --td-line-through: line-through;
+
+  /* Decoration Styles */
+  --td-style-solid: solid;
+  --td-style-dotted: dotted;
+  --td-style-dashed: dashed;
+  --td-style-wavy: wavy;
+
+  /* Decoration Thickness */
+  --td-thickness-auto: auto;   /* default */
+  --td-thickness-thin: 1px;
+  --td-thickness-medium: 2px;
+  --td-thickness-thick: 3px;
+
+  /* Decoration Color (uses text color by default) */
+  --td-color-default: currentColor; /* inherits font color */
+  --td-color-muted: var(--font-color-muted);
+  --td-color-accent: var(--accent-color);
+
+  /* Extra – Underline Offset */
+  --td-offset-none: 0;
+  --td-offset-sm: 1px;
+  --td-offset-md: 2px;
+  --td-offset-lg: 4px;
+
 }

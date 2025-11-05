@@ -39,6 +39,18 @@
   --max-width-text: 720px;
   --max-width-sidebar: 360px;
   --max-width-input: 100%;
+  --max-width-footer:100%;
+
+/* -------------------------
+     Min Widths
+------------------------- */
+--min-width-content: 320px;      /* smallest usable layout width */
+--min-width-text: 280px;         /* minimum readable text block */
+--min-width-sidebar: 240px;      /* keeps sidebar usable on mobile */
+--min-width-input: 120px;        /* prevents input fields from collapsing */
+--min-width-footer: 280px;       /* ensures footer sections don’t break */
+
+
 
   /* -------------------------
      Edge Padding / Layout Spacing
