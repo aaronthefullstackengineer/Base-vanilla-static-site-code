@@ -38,6 +38,7 @@
   --max-width-content: 1140px;
   --max-width-text: 720px;
   --max-width-sidebar: 360px;
+  --max-width-input: 100%;
 
   /* -------------------------
      Edge Padding / Layout Spacing
