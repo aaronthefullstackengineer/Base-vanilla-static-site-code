@@ -4,26 +4,29 @@ input[type="email"],
 input[type="password"],
 input[type="search"],
 textarea {
-    width: 100%;
-    padding: 10px 14px;
-    font-size: 1rem;
-    border-radius: 6px;
+    width: var(--max-width-input);
+    padding: var(--spacing-sm) var(--spacing-md);                 /* Could use: --spacing-sm / --spacing-md */
+    font-size: var(--p-font-size);                     /* Could use: --p-font-size or --font-size-md */
+    border-radius: var(--border-radius-md);                  /* Could use: --radius-md or --border-radius */
 
-    background-color: var(--input-bg);
-    color: var(--input-text);
-    border: 1px solid var(--input-border);
+    background-color: var(--input-bg);          /* Input background variable */
+    color: var(--input-text);                   /* Input text color variable */
+    border: var(--border-width-thin) var(--border-style-solid) var(--input-border);     /* Input border variable */
 
-    outline: none;
-    transition: border-color 0.25s ease, background-color 0.25s ease, color 0.25s ease;
+    outline: var(--border-style-none);
+    transition: 
+        border-color var(--transition-medium) var(--ease-in-out), 
+        background-color var(--transition-medium) var(--ease-in-out),
+        color var(--transition-medium) var(--ease-in-out);                       /* Could use: --transition-medium + --ease-in-out variables */
 }
 
 input::placeholder,
 textarea::placeholder {
-    color: var(--input-placeholder);
+    color: var(--input-placeholder);           /* Placeholder color variable */
 }
 
 /* Focus State */
 input:focus,
 textarea:focus {
-    border-color: var(--input-border-focus);
+    border-color: var(--input-border-focus);   /* Focus border color variable */
 }
