@@ -1,10 +1,11 @@
 .theme-toggle-btn {
-  padding: var(--spacing-xs) var(--spacing-sm);
-  border-radius: var(--spacing-xs);
+  padding: var(--spacing-sm) var(--spacing-sm);
+  border-radius: var(--spacing-sm);
   border: var(--border-style-none);
   background: var(--bg-color);
   color: var(--text-color);
   cursor: pointer;
+  width: var(--size-xl);
 
   /* Soft shadow for depth */
   box-shadow: var(--shadow-sm-light-dark-mode);
