@@ -6,6 +6,7 @@
   color: var(--text-color);
   cursor: pointer;
   width: var(--size-xl);
+  height: var(--size-xl);
 
   /* Soft shadow for depth */
   box-shadow: var(--shadow-sm-light-dark-mode);
