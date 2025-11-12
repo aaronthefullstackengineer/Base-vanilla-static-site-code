@@ -23,12 +23,19 @@
 
 
 /*====base=====*/
-
-
+@import url('CSS-lib/Global/Base/body.css');
+@import url('CSS-lib/Global/Base/fonts.css');
+@import url('CSS-lib/Global/Base/foooter.css');
+@import url('CSS-lib/Global/Base/header.css');
+@import url('CSS-lib/Global/Base/links.css');
+@import url('CSS-lib/Global/Base/main.css');
+@import url('CSS-lib/Global/Base/typography.css');
 
 
 
 /*=====components=====*/
 @import url('CSS-lib/Global/components/card.css');
+@import url('CSS-lib/Global/components/input-bar.css');
 @import url('CSS-lib/Global/components/light-dark-button.css');
+
 
