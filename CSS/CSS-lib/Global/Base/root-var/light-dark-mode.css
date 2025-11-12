@@ -40,6 +40,11 @@
     --footer-border: rgba(0, 0, 0, 0.08);
     --footer-icon: #2a2a2a;
     --footer-icon-hover: #0c4ec3;
+    --color-bg: #ffffff;           /* page background */
+    --color-text: #1a1a1a;         /* primary text */
+    --color-header-bg: #f7f7f7;    /* header background */
+    --color-footer-bg: #f1f1f1;    /* footer background */
+    --color-header-accent: #0078ff;       /* links, buttons, highlights */
 }
 
 /* ===== Dark Mode Variables ===== */
@@ -83,4 +88,9 @@
     --footer-border: rgba(255, 255, 255, 0.12);
     --footer-icon: #e8e8e8;
     --footer-icon-hover: #a6caff;
+    --color-bg: #121212;           /* dark page background */
+    --color-text: #e0e0e0;         /* light text */
+    --color-header-bg: #1f1f1f;    /* dark header background */
+    --color-footer-bg: #1a1a1a;    /* dark footer background */
+    --color-header-accent: #4da6ff;       /* accent for dark mode */
 }
