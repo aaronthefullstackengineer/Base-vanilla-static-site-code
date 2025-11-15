@@ -4,6 +4,8 @@ import {  loadHeader  } from "./JS lib/Global/Modules/header-module.js";
 import { loaderfooter } from "./JS lib/Global/Modules/footer-module.js";
 import { loadMenuModule } from "./JS lib/Global/Modules/menu-module.js";
 import { loadNavbarGlass } from "./JS lib/Global/navbar-glass.js";
+
+
 //--------------------
 initCardSearch(); // uses default selectors
 
