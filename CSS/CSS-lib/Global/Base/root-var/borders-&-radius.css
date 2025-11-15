@@ -33,4 +33,11 @@
   --border-radius-bottom-left: 8px;
   --border-radius-bottom-right: 8px;
 
+
+  /*-----------------------
+   custom
+   ---------------------------*/
+
+   --border-radius-navbar:12px;
+
 }
