@@ -13,22 +13,10 @@
   --spacing-3xl: 64px;   /* 8x */
   --spacing-4xl: 96px;   /* 12x */
 
+ /*----------------------------------
+   custom spacing 
+   -------------------------------------*/
 
-  /* -------------------------
-     Grid / Gap Sizes
-  ------------------------- */
-  --gap-xs: var(--spacing-xs);
-  --gap-sm: var(--spacing-sm);
-  --gap-md: var(--spacing-md);
-  --gap-lg: var(--spacing-lg);
-  --gap-xl: var(--spacing-xl);
-
-
-  /* -------------------------
-     Edge Padding / Layout Spacing
-  ------------------------- */
-  --layout-padding-sm: var(--spacing-md);
-  --layout-padding-md: var(--spacing-lg);
-  --layout-padding-lg: var(--spacing-xl);
-
+   --spacing-top-navbar: 60px;
+   --spacing-right-navbar: 20px;
 }
