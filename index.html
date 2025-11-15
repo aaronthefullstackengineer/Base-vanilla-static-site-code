@@ -56,23 +56,17 @@
 
         
 
-<main>
-    <!-- Single Card -->
-    <div class="card">
-        <h2>HTML</h2>
-        <p>This is the content of your card. You can add text, images, or links here.</p>
-    </div>
-    <!-- Single Card -->
-    <div class="card">
-        <h2>CSS</h2>
-        <p>This is the content of your card. You can add text, images, or links here.</p>
-    </div>
-    <!-- Single Card -->
-    <div class="card">
-        <h2>JS</h2>
-        <p>This is the content of your card. You can add text, images, or links here.</p>
-    </div>
+  <main id="data-container">
+    <!-- Cards will be dynamically inserted here -->
 </main>
+
+<!-- Template for a single card -->
+<template id="row-template">
+    <div class="card">
+        <h2 data-key="title"></h2>
+        <p data-key="description"></p>
+    </div>
+</template>
 
 
 
