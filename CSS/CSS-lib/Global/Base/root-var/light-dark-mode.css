@@ -18,7 +18,6 @@
     --box-shadow-light: rgba(0, 0, 0, 0.1);   /* subtle shadow */
     --box-shadow-medium: rgba(0, 0, 0, 0.15); /* stronger shadow */
     --box-shadow-heavy: rgba(0, 0, 0, 0.25);  /* heavy shadow */
-    --font-family-base: 'Roboto', sans-serif;
     --font-color-base: #1c1c1c;    /* main text color */
     --font-color-muted: #555555;   /* secondary / muted text */
     --font-color-heading: #222222; /* headings */
@@ -50,6 +49,14 @@
     --text-navbar-glass: rgba(20, 20, 30,);
     --text-navbar-glass-muted: rgba(80, 80, 100,);
     --accent-navbar-glass: rgba(0, 120, 255,);
+    --box-shadow: rgba(0,0,0); 
+    --ham-default: #FFFFFF;
+    --ham-hover: #EDEDED;
+    --ham-active: #CCCCCC;
+    --ham-open: #FF8888;          
+    --ham-open-neutral: #DDDDDD;
+    --ham-bg-color: rgba(30,30,40);
+
 
 }
 
@@ -104,4 +111,11 @@
     --text-navbar-glass: rgba(230, 230, 240,);
     --text-navbar-glass-muted: rgba(180, 180, 200,);
     --accent-navbar-glass: rgba(100, 180, 255,);
+    --ham-default: #222222;
+    --ham-hover: #000000;
+    --ham-active: #444444;
+    --ham-open: #FF4444;     
+    --ham-open-neutral: #555555;
+    --ham-bg-color: rgba(30,30,40);
+    
 }
